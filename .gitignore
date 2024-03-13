@@ -7,10 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node
 node_modules
-dist
-dist-ssr
-*.local
+npm-debug.log
+yarn-error.log
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Compiled output
+.parcel-cache
+dist
